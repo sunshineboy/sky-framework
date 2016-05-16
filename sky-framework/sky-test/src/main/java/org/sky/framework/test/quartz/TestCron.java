@@ -22,7 +22,7 @@ public class TestCron {
 		// "0/5 30-59 9-10 ? * MON-FRI | 0/5 * 13-14 ? * MON-FRI | 0/30 0 15 ? * MON-FRI";
 //		String crons = "0/5 30-59 9-10 ? * MON-FRI | 0/5 * 13-14 ? * MON-FRI | 0/30 0 15 ? * MON-FRI";
 //		String crons = "0/5 30-59 9,10 ? * MON-FRI | 0/5 0-30 10,11 ? * MON-FRI | 0/5 * 13-14 ? * MON-FRI | 30 0 15 ? * MON-FRI";
-		String crons = "5/3 30 9 ? * MON-FRI | 0/3 31-59 9,10 ? * MON-FRI | 0/3 0-30 10,11 ? * MON-FRI ";
+		String crons = "0 */1 * ? * MON-FRI";
 		
 		
 		log.info("------- Initializing -------------------");
